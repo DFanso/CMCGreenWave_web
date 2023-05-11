@@ -1,0 +1,41 @@
+.admin-dashboard-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+}
+
+.admin-dashboard-heading {
+    color: white;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+.admin-dashboard-buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.create-user-button,
+.add-article-button,
+.add-garbage-spot-button {
+    font-size: 1.3rem;
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: 5px;
+    padding: 1rem 1.5rem;
+    margin: 1rem;
+    cursor: pointer;
+}
+
+.create-user-button:hover,
+.add-article-button:hover,
+.add-garbage-spot-button:hover {
+    background-color: grey;
+}

@@ -1,0 +1,79 @@
+.modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: grey;
+    color: #fff;
+}
+
+.modal-header h2 {
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+.modal-header button {
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.modal-body {
+    padding: 2rem;
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+input[type='text'],
+textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 0.25rem;
+    border: 1px solid #ced4da;
+}
+
+button[type='submit'],
+button[type='button'] {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 0.25rem;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+
+button[type='submit']:hover,
+button[type='button']:hover {
+    background-color: #0069d9;
+}
+
+button[type='submit']:focus,
+button[type='button']:focus {
+    outline: none;
+    box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.5);
+}
+
+button[type='submit']:disabled,
+button[type='button']:disabled {
+    background-color: #6c757d;
+    cursor: not-allowed;
+}
+
+button[type='submit']:disabled:hover,
+button[type='button']:disabled:hover {
+    background-color: #6c757d;
+}
+
+#incidentId {
+    text-transform: uppercase;
+}

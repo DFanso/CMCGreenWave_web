@@ -1,0 +1,23 @@
+.homepage-cover-img {
+    height: 93vh;
+    width: 100%;
+}
+
+.homepage-logo-link {
+    text-decoration: none;
+}
+
+.homepage-cover {
+    position: relative;
+}
+
+.homepage-heading {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 48px;
+    text-align: center;
+    width: 100%;
+}

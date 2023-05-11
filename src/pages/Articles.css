@@ -1,0 +1,114 @@
+.articles-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    padding: 2rem;
+
+}
+
+.article {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    margin-bottom: 2rem;
+    width: 100%;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    transition: transform 0.2s ease-in-out;
+}
+
+.article:hover {
+    transform: translateY(-10px);
+}
+
+.first-two-artciles {
+    margin-top: 35px;
+}
+
+.article h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    text-shadow: 1px 1px #008080;
+}
+
+.article p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+
+.article-glassbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 128, 128, 0.8);
+    color: #fff;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 0.2s ease;
+    border-radius: 10px;
+    padding: 2rem;
+}
+
+.article:hover .article-glassbox {
+    opacity: 1;
+}
+
+.article-glassbox-content h3 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.article-glassbox-content p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    margin-bottom: 1.5rem;
+}
+
+.article-glassbox-button {
+    display: inline-block;
+    background-color: #fff;
+    color: #008080;
+    padding: 0.8rem 2.2rem;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    text-decoration: none;
+    transition: background-color 0.2s ease;
+}
+
+.article-glassbox-button:hover {
+    background-color: #eee;
+    color: #008080;
+}
+
+.article-image {
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 1.5rem;
+    border-radius: 10px;
+}
+
+.article-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.2s ease-in-out;
+}
+
+.article:hover {
+    background-color: #f0f0f0;
+    cursor: pointer;
+}
